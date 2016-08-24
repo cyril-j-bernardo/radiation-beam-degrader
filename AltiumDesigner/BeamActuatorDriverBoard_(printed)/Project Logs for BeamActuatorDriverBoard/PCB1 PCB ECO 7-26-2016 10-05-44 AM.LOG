@@ -1,0 +1,9 @@
+Change Component Designator: OldDesignator=P1 NewDesignator=J1
+Change Component Designator: OldDesignator=P1 NewDesignator=J3
+Change Component Designator: OldDesignator=P2 NewDesignator=J2
+Change Component Designator: OldDesignator=P2 NewDesignator=J4
+Added Pin To Net: NetName=VCC 12V Pin=J4-2
+Change Net Name : Old Net Name=VCC 12V New Net Name=VCC_12V
+Added Member To Class: ClassName=Sheet1 Member=Component J3 3.3V PS
+Added Member To Class: ClassName=Sheet1 Member=Component J4 12V PS
+Added Room: Name=Sheet1

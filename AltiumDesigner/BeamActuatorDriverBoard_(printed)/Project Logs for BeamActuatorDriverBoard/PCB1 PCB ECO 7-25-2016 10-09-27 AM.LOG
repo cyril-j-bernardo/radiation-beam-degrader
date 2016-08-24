@@ -1,0 +1,13 @@
+Change Component Footprint: Designator=D9 Old Footprint=3.2X1.6X1.1 New Footprint=LED-0
+Change Component Footprint: Designator=D10 Old Footprint=3.2X1.6X1.1 New Footprint=LED-0
+Added Component: Designator=D?(LED-1)
+Added Component: Designator=D?(LED-1)
+Added Component: Designator=D?(LED-1)
+Added Component: Designator=D?(LED-1)
+Added Component: Designator=D?(LED-1)
+Added Pin To Net: NetName=VCC 12V Pin=D?-2
+Added Member To Class: ClassName=Sheet1 Member=Component D? LED1
+Added Member To Class: ClassName=Sheet1 Member=Component D? LED1
+Added Member To Class: ClassName=Sheet1 Member=Component D? LED1
+Added Member To Class: ClassName=Sheet1 Member=Component D? LED1
+Added Member To Class: ClassName=Sheet1 Member=Component D? LED1

@@ -1,0 +1,4 @@
+Change Component Comment : Designator=P2 Old Comment=3.3V PS New Comment=12V PS
+Change Component Comment : Designator=P1 Old Comment=12V PS New Comment=3.3V PS
+Added Member To Class: ClassName=Sheet1 Member=Component P1 Header 18X2
+Added Member To Class: ClassName=Sheet1 Member=Component P2 12V PS

@@ -1,0 +1,8 @@
+Added Component: Designator=MH1(MountHole4-40)
+Added Component: Designator=MH2(MountHole4-40)
+Added Component: Designator=MH3(MountHole4-40)
+Added Component: Designator=MH4(MountHole4-40)
+Added Member To Class: ClassName=Sheet1 Member=Component MH1 4-40
+Added Member To Class: ClassName=Sheet1 Member=Component MH2 4-40
+Added Member To Class: ClassName=Sheet1 Member=Component MH3 4-40
+Added Member To Class: ClassName=Sheet1 Member=Component MH4 4-40

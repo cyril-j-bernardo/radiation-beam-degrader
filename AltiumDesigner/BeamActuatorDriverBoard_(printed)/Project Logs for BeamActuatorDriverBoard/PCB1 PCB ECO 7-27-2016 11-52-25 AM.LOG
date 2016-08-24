@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=VCC 3.3V Pin=R2-2
+Change Component Library : Designator=R18 Old Library=Miscellaneous Devices.IntLib New Library=H-bridge.SchLib
+Change Component Library : Designator=R1 Old Library=PcbLib2.PcbLib New Library=H-bridge.SchLib
+Change Component Library : Designator=R3 Old Library=PcbLib2.PcbLib New Library=H-bridge.SchLib
+Change Component Library : Designator=R4 Old Library=PcbLib2.PcbLib New Library=H-bridge.SchLib
+Change Component Library : Designator=R5 Old Library=PcbLib2.PcbLib New Library=H-bridge.SchLib
+Change Component Library : Designator=R6 Old Library=PcbLib2.PcbLib New Library=H-bridge.SchLib
+Change Component Library : Designator=R7 Old Library=PcbLib2.PcbLib New Library=H-bridge.SchLib
+Change Component Library : Designator=R8 Old Library=PcbLib2.PcbLib New Library=H-bridge.SchLib
+Change Component Library : Designator=R9 Old Library=PcbLib2.PcbLib New Library=H-bridge.SchLib
+Change Component Library : Designator=R10 Old Library=PcbLib2.PcbLib New Library=H-bridge.SchLib
+Change Component Library : Designator=R11 Old Library=PcbLib2.PcbLib New Library=H-bridge.SchLib
+Change Component Library : Designator=R12 Old Library=PcbLib2.PcbLib New Library=H-bridge.SchLib
+Change Component Library : Designator=R13 Old Library=PcbLib2.PcbLib New Library=H-bridge.SchLib
+Change Component Library : Designator=R14 Old Library=PcbLib2.PcbLib New Library=H-bridge.SchLib
+Change Component Library : Designator=R15 Old Library=PcbLib2.PcbLib New Library=H-bridge.SchLib
+Change Component Library : Designator=R16 Old Library=PcbLib2.PcbLib New Library=H-bridge.SchLib
+Change Component Library : Designator=R17 Old Library=PcbLib2.PcbLib New Library=H-bridge.SchLib
+Added Component: Designator=R2(AXIAL-0.3)
+Added Pin To Net: NetName=VCC 3.3V Pin=R2-2

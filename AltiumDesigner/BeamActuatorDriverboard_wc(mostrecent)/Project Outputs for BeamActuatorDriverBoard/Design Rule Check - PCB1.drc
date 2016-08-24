@@ -1,0 +1,58 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Public\Documents\Altium\Projects\BeamActuatorDriverBoard_wc\PCB1.PcbDoc
+Date     : 8/2/2016
+Time     : 4:14:45 PM
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=200mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Acute Angle Constraint [Tracks Only] (Minimum=120.000) (All)
+   Violation between Acute Angle Constraint: (90.000 < 120.000) Between Track (3717.835mil,980mil)(3765mil,932.835mil) on Top Layer And Track (3765mil,932.835mil)(3832.165mil,1000mil) on Top Layer (Angle = 90.000)
+   Violation between Acute Angle Constraint: (45.000 < 120.000) Between Track (2770mil,932.835mil)(2827.165mil,990mil) on Top Layer And Track (2770mil,932.835mil)(2770mil,1340mil) on Top Layer (Angle = 45.000)
+   Violation between Acute Angle Constraint: (45.000 < 120.000) Between Track (1675mil,520mil)(1835mil,360mil) on Top Layer And Track (1725mil,360mil)(1835mil,360mil) on Top Layer (Angle = 45.000)
+   Violation between Acute Angle Constraint: (45.000 < 120.000) Between Track (3765mil,2222.835mil)(3765mil,2630.61mil) on Top Layer And Track (3765mil,2222.835mil)(3827.166mil,2285mil) on Top Layer (Angle = 45.000)
+   Violation between Acute Angle Constraint: (90.000 < 120.000) Between Track (3810.305mil,2675.305mil)(3890.61mil,2595mil) on Top Layer And Track (3765mil,2630.61mil)(3810mil,2675.61mil) on Top Layer (Angle = 90.000)
+   Violation between Acute Angle Constraint: (90.000 < 120.000) Between Track (2770mil,2525.61mil)(2925mil,2680.61mil) on Top Layer And Track (2925mil,2680.61mil)(3005.61mil,2600mil) on Top Layer (Angle = 90.000)
+   Violation between Acute Angle Constraint: (90.000 < 120.000) Between Track (1935mil,2680.61mil)(2015.61mil,2600mil) on Top Layer And Track (1805mil,2550.61mil)(1935mil,2680.61mil) on Top Layer (Angle = 90.000)
+   Violation between Acute Angle Constraint: (90.000 < 120.000) Between Track (960mil,2680.61mil)(1045.61mil,2595mil) on Top Layer And Track (825mil,2545.61mil)(960mil,2680.61mil) on Top Layer (Angle = 90.000)
+Rule Violations :8
+
+
+Violations Detected : 8
+Time Elapsed        : 00:00:01

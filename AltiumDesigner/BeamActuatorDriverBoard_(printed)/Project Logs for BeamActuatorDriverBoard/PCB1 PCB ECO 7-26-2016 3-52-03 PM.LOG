@@ -1,0 +1,62 @@
+Change Component Designator: OldDesignator=D1 NewDesignator=D3
+Change Component Designator: OldDesignator=D2 NewDesignator=D5
+Change Component Designator: OldDesignator=D3 NewDesignator=D6
+Change Component Designator: OldDesignator=D4 NewDesignator=D7
+Change Component Designator: OldDesignator=D5 NewDesignator=D8
+Change Component Designator: OldDesignator=D6 NewDesignator=D2
+Change Component Designator: OldDesignator=D7 NewDesignator=D4
+Change Component Designator: OldDesignator=D8 NewDesignator=D9
+Change Component Designator: OldDesignator=D9 NewDesignator=D1
+Change Component Designator: OldDesignator=J1 NewDesignator=J3
+Change Component Designator: OldDesignator=J2 NewDesignator=J4
+Change Component Designator: OldDesignator=J3 NewDesignator=J1
+Change Component Designator: OldDesignator=J4 NewDesignator=J2
+Change Component Designator: OldDesignator=R1 NewDesignator=R2
+Change Component Designator: OldDesignator=R2 NewDesignator=R4
+Change Component Designator: OldDesignator=R3 NewDesignator=R9
+Change Component Designator: OldDesignator=R4 NewDesignator=R3
+Change Component Designator: OldDesignator=R5 NewDesignator=R6
+Change Component Designator: OldDesignator=R6 NewDesignator=R8
+Change Component Designator: OldDesignator=R7 NewDesignator=R5
+Change Component Designator: OldDesignator=R8 NewDesignator=R7
+Change Component Designator: OldDesignator=R9 NewDesignator=R10
+Change Component Designator: OldDesignator=R10 NewDesignator=R11
+Change Component Designator: OldDesignator=R11 NewDesignator=R12
+Change Component Designator: OldDesignator=R12 NewDesignator=R14
+Change Component Designator: OldDesignator=R13 NewDesignator=R17
+Change Component Designator: OldDesignator=R14 NewDesignator=R13
+Change Component Designator: OldDesignator=R17 NewDesignator=R1
+Change Component Designator: OldDesignator=U1 NewDesignator=U3
+Change Component Designator: OldDesignator=U2 NewDesignator=U6
+Change Component Designator: OldDesignator=U3 NewDesignator=U2
+Change Component Designator: OldDesignator=U4 NewDesignator=U8
+Change Component Designator: OldDesignator=U5 NewDesignator=U4
+Change Component Designator: OldDesignator=U6 NewDesignator=U5
+Change Component Designator: OldDesignator=U7 NewDesignator=U1
+Change Component Designator: OldDesignator=U8 NewDesignator=U7
+Added Component: Designator=C5(CAPR5-4X5)
+Added Component: Designator=C6(CAPR5-4X5)
+Added Component: Designator=C7(CAPR5-4X5)
+Added Component: Designator=C8(CAPR5-4X5)
+Added Pin To Net: NetName=VCC 12V Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=VCC 12V Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=VCC 12V Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=VCC 12V Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Change Net Name : Old Net Name=NetD1_1 New Net Name=NetD3_1
+Change Net Name : Old Net Name=NetD2_1 New Net Name=NetD5_1
+Change Net Name : Old Net Name=NetD3_1 New Net Name=NetD6_1
+Change Net Name : Old Net Name=NetD4_1 New Net Name=NetD7_1
+Change Net Name : Old Net Name=NetD5_1 New Net Name=NetD8_1
+Change Net Name : Old Net Name=NetD6_1 New Net Name=NetD2_1
+Change Net Name : Old Net Name=NetD7_1 New Net Name=NetD4_1
+Change Net Name : Old Net Name=NetD8_1 New Net Name=NetD9_1
+Change Net Name : Old Net Name=NetD9_1 New Net Name=NetD1_1
+Added Member To Class: ClassName=Sheet1 Member=Component C5 Cap2
+Added Member To Class: ClassName=Sheet1 Member=Component C6 Cap2
+Added Member To Class: ClassName=Sheet1 Member=Component C7 Cap1
+Added Member To Class: ClassName=Sheet1 Member=Component C8 Cap1
+Added Room: Name=Sheet1

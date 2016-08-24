@@ -1,0 +1,19 @@
+Change Component Footprint: Designator=U1 Old Footprint=TLE-5206-2S IC New Footprint=TLE 5206-2
+Change Component Footprint: Designator=U2 Old Footprint=TLE-5206-2S IC New Footprint=TLE 5206-2
+Change Component Footprint: Designator=U3 Old Footprint=TLE-5206-2S IC New Footprint=TLE 5206-2
+Change Component Footprint: Designator=U4 Old Footprint=TLE-5206-2S IC New Footprint=TLE 5206-2
+Change Component Footprint: Designator=U5 Old Footprint=TLE-5206-2S IC New Footprint=TLE 5206-2
+Change Component Footprint: Designator=U6 Old Footprint=TLE-5206-2S IC New Footprint=TLE 5206-2
+Change Component Footprint: Designator=U7 Old Footprint=TLE-5206-2S IC New Footprint=TLE 5206-2
+Change Component Footprint: Designator=U8 Old Footprint=TLE-5206-2S IC New Footprint=TLE 5206-2
+Added Component: Designator=P1(HDR1X2)
+Added Component: Designator=P2(HDR1X2)
+Added Pin To Net: NetName=GND Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P2-1
+Added Pin To Net: NetName=VCC_3.3V Pin=P1-2
+Added Net: Name=VCC_3.3V
+Added Pin To Net: NetName=VCC_12V Pin=P2-2
+Added Net: Name=VCC_12V
+Added Member To Class: ClassName=Sheet1 Member=Component P1 Header 18X2
+Added Member To Class: ClassName=Sheet1 Member=Component P2 3.3V PS
+Added Room: Name=Sheet1
