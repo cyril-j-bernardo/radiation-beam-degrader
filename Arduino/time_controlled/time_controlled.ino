@@ -16,6 +16,8 @@ const int Wiper2 = A1;
 const int ErrorFlag1 = 22;
 const int ErrorFlag2 = 24;
 
+int i = 0;
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
@@ -30,16 +32,42 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(h1_out1,HIGH);
-  digitalWrite(h1_out2,LOW);
-  delay(30000);
-  digitalWrite(h2_out1,HIGH);
-  digitalWrite(h2_out2,LOW);
-  delay(30000);
-  digitalWrite(h1_out1,LOW);
-  digitalWrite(h1_out2,HIGH);
-  delay(30000);
-  digitalWrite(h2_out1,LOW);
-  digitalWrite(h2_out2,HIGH);
+  analogReadResolution(10);
+  ActuatorPosition1 = analogRead(Wiper1);
+  Serial.print("  p1  ");
+  Serial.print(ActuatorPosition1);
+  Serial.print("  ");
+  Serial.print("e1  ");
+  Serial.print(ErrorFlag1);
+  
+
+  analogReadResolution(10);
+  ActuatorPosition2 = analogRead(Wiper2);
+  Serial.print("  p2  ");
+  Serial.print(ActuatorPosition2);
+  Serial.print("  e2  ");
+  Serial.println(ErrorFlag2);
+  i = i + 1;
+  if ( i == 1 )
+  {
+    digitalWrite(h1_out1,HIGH);
+    digitalWrite(h1_out2,LOW);
+  }
+  if ( i == 2 ) 
+  {
+    digitalWrite(h2_out1,HIGH);
+    digitalWrite(h2_out2,LOW);
+  }
+  if ( i == 3 )
+  {
+    digitalWrite(h1_out1,LOW);
+    digitalWrite(h1_out2,HIGH);
+  }
+  if ( i == 4)
+  {
+    digitalWrite(h2_out1,LOW);
+    digitalWrite(h2_out2,HIGH);
+    i = 0;
+  }
   delay(30000);
 }

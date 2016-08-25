@@ -85,5 +85,6 @@ void loop() {
     {
       digitalWrite(h2_out2, LOW);
     }
+    delay(1000);
   }
 }
