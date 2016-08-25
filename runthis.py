@@ -15,10 +15,12 @@ print("connected to: " + ser.portstr)
 
 
 #while True:
-try:
-    thickness = input("Enter plate thickness: ")
-    if ((float(thickness).is_integer()) & (float(thickness) <= 3)):
-        print('hi')
+thickness = 10*(input("Enter plate thickness: "))
+if (int(thickness) <= 30):
+    try:
+        thick_binary = '{0:08b}'.format(thickness)
+        print(thickness)
+        print(thick_binary)
         # line = ser.readline()
         # split_line = line.split()
 
@@ -27,7 +29,5 @@ try:
 
         # actuator2state = split_line[5]
         # actuator2error = split_line[7]
-    else:
-        print('nothing')
-finally:
-    print('program end')
+    finally:
+        print("program end")
