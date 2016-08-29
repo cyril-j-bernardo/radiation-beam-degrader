@@ -29,6 +29,20 @@ void setup() {
 
   pinMode(ErrorFlag1, INPUT);
   pinMode(ErrorFlag2, INPUT);
+
+  analogReadResolution(10);
+  ActuatorPosition1 = analogRead(Wiper1);
+  ActuatorPosition2 = analogRead(Wiper2);
+  if (ActuatorPosition1 > 30)
+  {
+    digitalWrite(h1_out2, HIGH);
+    digitalWrite(h1_out1, LOW);
+  }
+  if (ActuatorPosition2 > 30)
+  {
+    digitalWrite(h2_out2, HIGH);
+    digitalWrite(h2_out1, LOW);
+  }  
 }
 
 void loop() {
@@ -47,27 +61,39 @@ void loop() {
   Serial.print(ActuatorPosition2);
   Serial.print("  e2  ");
   Serial.println(ErrorFlag2);
-  i = i + 1;
-  if ( i == 1 )
-  {
-    digitalWrite(h1_out1,HIGH);
-    digitalWrite(h1_out2,LOW);
+
+  if (Serial.available() > 0) {
+    serialData = Serial.parseInt();
+
+    if ((serialData & 1) && (ActuatorPosition1 < 30)) {
+      digitalWrite(h1_out1, HIGH);
+    }
+    else {
+      digitalWrite(h1_out1, LOW);
+    }
+    if ( !(serialData & 1) && (ActuatorPosition1 > 900))
+    {
+      digitalWrite(h1_out2, HIGH);
+    }
+    else
+    {
+      digitalWrite(h1_out2, LOW);
+    }
+    if (( serialData & 2) && (ActuatorPosition2 < 30))
+    {
+      digitalWrite(h2_out1, HIGH);
+    }
+    else
+    {
+      digitalWrite(h2_out1, LOW);
+    }
+    if ( !(serialData & 2) && (ActuatorPosition2 > 900))
+    {
+      digitalWrite(h2_out2, HIGH);
+    }
+    else
+    {
+      digitalWrite(h2_out2, LOW);
+    }
   }
-  if ( i == 2 ) 
-  {
-    digitalWrite(h2_out1,HIGH);
-    digitalWrite(h2_out2,LOW);
-  }
-  if ( i == 3 )
-  {
-    digitalWrite(h1_out1,LOW);
-    digitalWrite(h1_out2,HIGH);
-  }
-  if ( i == 4)
-  {
-    digitalWrite(h2_out1,LOW);
-    digitalWrite(h2_out2,HIGH);
-    i = 0;
-  }
-  delay(30000);
 }
